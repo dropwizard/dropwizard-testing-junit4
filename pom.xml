@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.dropwizard</groupId>
@@ -10,7 +9,7 @@
 
     <groupId>io.dropwizard.modules</groupId>
     <artifactId>dropwizard-testing-junit4</artifactId>
-    <version>3.0.0-SNAPSHOT</version>
+    <version>3.0.0-beta.4</version>
 
     <name>Dropwizard Test Support for JUnit 4.x</name>
 
@@ -26,7 +25,7 @@
         <developerConnection>scm:git:git@github.com:dropwizard/dropwizard-testing-junit4.git</developerConnection>
         <connection>scm:git:https://github.com/dropwizard/dropwizard-testing-junit4.git</connection>
         <url>https://github.com/dropwizard/dropwizard-testing-junit4</url>
-        <tag>HEAD</tag>
+        <tag>v3.0.0-beta.4</tag>
     </scm>
 
     <ciManagement>
