@@ -4,17 +4,15 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.guava.GuavaModule;
 import io.dropwizard.jackson.Jackson;
 import io.dropwizard.jersey.validation.JerseyViolationException;
-import io.dropwizard.testing.junit.ResourceTestRule;
 import io.dropwizard.testing.junit.app.PeopleStore;
 import io.dropwizard.testing.junit.app.PersonResource;
+import jakarta.ws.rs.client.Entity;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.Response;
+import jakarta.ws.rs.ext.ExceptionMapper;
 import org.glassfish.jersey.spi.ExtendedExceptionMapper;
 import org.junit.ClassRule;
 import org.junit.Test;
-
-import javax.ws.rs.client.Entity;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
-import javax.ws.rs.ext.ExceptionMapper;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
