@@ -4,11 +4,10 @@ import io.dropwizard.configuration.ResourceConfigurationSourceProvider;
 import io.dropwizard.core.setup.Environment;
 import io.dropwizard.testing.junit.app.DropwizardTestApplication;
 import io.dropwizard.testing.junit.app.TestConfiguration;
+import jakarta.ws.rs.client.Entity;
+import jakarta.ws.rs.core.MediaType;
 import org.junit.ClassRule;
 import org.junit.Test;
-
-import javax.ws.rs.client.Entity;
-import javax.ws.rs.core.MediaType;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

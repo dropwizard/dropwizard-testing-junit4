@@ -1,18 +1,17 @@
 package io.dropwizard.testing.junit;
 
 import io.dropwizard.configuration.ResourceConfigurationSourceProvider;
-import io.dropwizard.testing.junit.DropwizardAppRule;
 import io.dropwizard.testing.junit.app.TestApplication;
 import io.dropwizard.testing.junit.app.TestConfiguration;
+import jakarta.ws.rs.core.Response;
 import org.junit.ClassRule;
 import org.junit.Test;
 
-import javax.ws.rs.core.Response;
 import java.util.Collections;
 
-import static javax.ws.rs.core.HttpHeaders.ACCEPT_ENCODING;
-import static javax.ws.rs.core.HttpHeaders.CONTENT_ENCODING;
-import static javax.ws.rs.core.HttpHeaders.VARY;
+import static jakarta.ws.rs.core.HttpHeaders.ACCEPT_ENCODING;
+import static jakarta.ws.rs.core.HttpHeaders.CONTENT_ENCODING;
+import static jakarta.ws.rs.core.HttpHeaders.VARY;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class GzipDefaultVaryBehaviourTest {
