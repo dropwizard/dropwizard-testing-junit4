@@ -1,8 +1,9 @@
 name: Build
-on: 
+on:
   push:
     branches:
-    - main
+    - 3.0.x
+    - 4.0.x
   pull_request:
 jobs:
   build:
