@@ -9,7 +9,7 @@
 
     <groupId>io.dropwizard.modules</groupId>
     <artifactId>dropwizard-testing-junit4</artifactId>
-    <version>4.0.3</version>
+    <version>4.0.4-SNAPSHOT</version>
 
     <name>Dropwizard Test Support for JUnit 4.x</name>
 
@@ -25,7 +25,7 @@
         <developerConnection>scm:git:git@github.com:dropwizard/dropwizard-testing-junit4.git</developerConnection>
         <connection>scm:git:https://github.com/dropwizard/dropwizard-testing-junit4.git</connection>
         <url>https://github.com/dropwizard/dropwizard-testing-junit4</url>
-        <tag>v4.0.3</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <ciManagement>
