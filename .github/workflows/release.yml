@@ -19,11 +19,10 @@ jobs:
         server-id: ossrh
         server-username: CI_DEPLOY_USERNAME
         server-password: CI_DEPLOY_PASSWORD
-        gpg-passphrase: GPG_PASSPHRASE
-        gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
     - name: Build and Deploy
-      run: ./mvnw -B -V -ntp -Prelease deploy
+      run: ./mvnw -B -V -ntp -Dgpg.signer=bc -Prelease deploy
       env:
         CI_DEPLOY_USERNAME: ${{ secrets.CI_DEPLOY_USERNAME }}
         CI_DEPLOY_PASSWORD: ${{ secrets.CI_DEPLOY_PASSWORD }}
-        GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+        MAVEN_GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+        MAVEN_GPG_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
