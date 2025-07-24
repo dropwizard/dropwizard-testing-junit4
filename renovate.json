@@ -9,7 +9,7 @@
     ":prConcurrentLimitNone",
     ":separatePatchReleases"
   ],
-  "baseBranches": [
+  "baseBranchPatterns": [
     "3.0.x",
     "4.0.x",
     "5.0.x"
