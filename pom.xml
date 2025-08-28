@@ -38,17 +38,6 @@
         <url>https://github.com/dropwizard/dropwizard-testing-junit4/issues</url>
     </issueManagement>
 
-    <distributionManagement>
-        <repository>
-            <id>ossrh</id>
-            <name>Sonatype Central Portal Repository</name>
-        </repository>
-        <site>
-            <id>dropwizard-testing-junit4</id>
-            <url>http://dropwizard.github.io/dropwizard-testing-junit4/${project.version}</url>
-        </site>
-    </distributionManagement>
-
     <repositories>
         <repository>
             <name>Central Portal Snapshots</name>
