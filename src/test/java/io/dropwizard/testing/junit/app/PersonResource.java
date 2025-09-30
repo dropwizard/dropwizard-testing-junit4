@@ -14,8 +14,8 @@ import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
-import org.checkerframework.checker.nullness.qual.Nullable;
 import org.eclipse.jetty.io.EofException;
+import org.jspecify.annotations.Nullable;
 
 import java.util.Collections;
 import java.util.List;

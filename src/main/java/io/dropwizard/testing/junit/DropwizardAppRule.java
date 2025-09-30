@@ -12,10 +12,10 @@ import io.dropwizard.lifecycle.Managed;
 import io.dropwizard.testing.ConfigOverride;
 import io.dropwizard.testing.DropwizardTestSupport;
 import jakarta.ws.rs.client.Client;
-import org.checkerframework.checker.nullness.qual.Nullable;
 import org.glassfish.jersey.client.ClientProperties;
 import org.glassfish.jersey.client.HttpUrlConnectorProvider;
 import org.glassfish.jersey.client.JerseyClientBuilder;
+import org.jspecify.annotations.Nullable;
 import org.junit.rules.ExternalResource;
 
 import java.util.Optional;
